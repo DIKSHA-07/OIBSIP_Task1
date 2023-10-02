@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coffee Shop Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Coffee House</div>
+            <ul class="nav-links">
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-text">
+            <h1>Welcome to Coffee House</h1>
+            <p>Your favorite coffee shop in town</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+    <br>
+    <section id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2><br>
+                <p>Welcome to Coffee House, where passion meets perfection in every cup. We take pride in serving the finest coffee and handcrafted pastries in town, creating a haven for coffee enthusiasts and food lovers alike. Our journey began with a simple idea: to create a warm and welcoming space where people can savor exceptional coffee and enjoy quality time with friends and family. We source our coffee beans from the world's best coffee farms and roast them to perfection, ensuring a rich and aromatic experience in every sip. At Coffee House, we believe that coffee is more than just a beverage; it's a ritual, a comfort, and a source of inspiration. That's why our baristas are passionate about their craft, meticulously preparing each cup with precision and care. But it's not just about coffee; it's also about community. Our cozy ambiance, friendly staff, and inviting atmosphere make Coffee House the perfect place to unwind, work, or catch up with friends. We're more than just a coffee shop; we're a hub for connections and creativity. Whether you're a coffee connoisseur or simply looking for a delightful place to relax, we invite you to join us at Coffee House. Discover the magic in every cup, savor the flavors of our delectable pastries, and become a part of our vibrant coffee-loving community.</p>
+            </div><br>
+            <div class="about-image">
+                <img src="./bg.jpg" alt="Coffee House Interior" width="1000px" height="500px">
+            </div>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <div class="menu-table">
+            <h2>Menu</h2><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Americano</td>
+                        <td>Espresso with hot water</td>
+                        <td>$2.99</td>
+                    </tr>
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>Espresso with steamed milk and foam</td>
+                        <td>$3.49</td>
+                    </tr>
+                    <tr>
+                        <td>Latte</td>
+                        <td>Espresso with steamed milk</td>
+                        <td>$3.99</td>
+                    </tr>
+                    <tr>
+                        <td>Espresso</td>
+                        <td>A shot of pure energy.</td>
+                        <td>$2.99</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Coffee</td>
+                        <td>Chilled coffee served over ice, often sweetened and sometimes with added milk or cream.</td>
+                        <td>$2.39</td>
+                    </tr>
+                    <tr>
+                        <td>Affogato</td>
+                        <td>A simple dessert consisting of a scoop of vanilla ice cream or gelato "drowned" in a shot of hot espresso.</td>
+                        <td>$2.00</td>
+                    </tr>
+                    <tr>
+                        <td>Mocha</td>
+                        <td>A combination of espresso, steamed milk, and chocolate, often topped with whipped cream.</td>
+                        <td>$2.50</td>
+                    </tr>
+                    <tr>
+                        <td>Vienna Coffee</td>
+                        <td>Black coffee with whipped cream on top, similar to a mélange or coffee with cream.</td>
+                        <td>$1.50</td>
+                    </tr>
+                    <tr>
+                        <td>Macchiato</td>
+                        <td>Espresso "stained" or "marked" with a small amount of frothy milk.</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Americano</td>
+                        <td>Made by diluting a shot of espresso with hot water, resulting in a coffee similar in strength to drip coffee.</td>
+                        <td>$3.50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2><br>
+            <form action="contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            <p>&copy; 2023 Coffee House</p>
+        </div>
+    </footer>
+</body>
+</html>
